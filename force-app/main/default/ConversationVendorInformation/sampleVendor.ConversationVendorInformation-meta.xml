@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ConversationVendorInfo xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <bridgeComponent>REPLACE_WITH_NAMESPACE_NAME:lwcBridge</bridgeComponent>
+    <bridgeComponent>CUSTCTI:lwcBridge</bridgeComponent>
     <einsteinConversationInsightsSupported>true</einsteinConversationInsightsSupported>
     <partnerContactCenterListSupported>true</partnerContactCenterListSupported>
     <namedCredentialSupported>true</namedCredentialSupported>
@@ -10,14 +10,14 @@
     <universalCallRecordingAccessSupported>true</universalCallRecordingAccessSupported>
     <partnerPhoneNumbersSupported>true</partnerPhoneNumbersSupported>
     <clientAuthMode>SSO</clientAuthMode>
-    <connectorUrl>/apex/connectorPage</connectorUrl>
+    <connectorUrl>https://www.myTelephonyDemo.com:8080</connectorUrl>
     <customConfig>sampleCustomConfig__c</customConfig>
-    <customLoginUrl>test</customLoginUrl>
+    <customLoginUrl>https://www.myTelephonyDemo.com:8080/login.html</customLoginUrl>
     <developerName>sampleVendor</developerName>
     <integrationClass>SampleIntegrationImpl</integrationClass>
     <masterLabel>Sample Vendor</masterLabel>
     <namedCredential>sampleNamedCredential</namedCredential>
     <userSyncingSupported>true</userSyncingSupported>
     <vendorType>ServiceCloudVoicePartner</vendorType>
-    <telephonySettingsComponent>REPLACE_WITH_NAMESPACE_NAME:agentConfig</telephonySettingsComponent>
+    <telephonySettingsComponent>CUSTCTI:agentConfig</telephonySettingsComponent>
 </ConversationVendorInfo>

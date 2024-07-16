@@ -2,9 +2,9 @@
     <apex:includeScript value="/lightning/lightning.out.js" />
 
     <script>
-        $Lightning.use("REPLACE_WITH_NAMESPACE_NAME:VoiceExtensionLightningApp", function() {
+        $Lightning.use("CUSTCTI:VoiceExtensionLightningApp", function() {
             $Lightning.createComponent(
-                "REPLACE_WITH_NAMESPACE_NAME:AuraVoiceExtension",
+                "CUSTCTI:AuraVoiceExtension",
                 {},
                 "voiceExtension",
                 function(cmp) {

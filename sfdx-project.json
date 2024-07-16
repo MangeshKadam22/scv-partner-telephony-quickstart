@@ -1,15 +1,35 @@
 {
-    "packageDirectories": [
-        {
-            "path": "force-app",
-            "default": true,
-            "package": "Service Cloud Voice Partner Telephony Sample Package",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT"
-        }
-    ],
-    "namespace": "REPLACE_WITH_NAMESPACE_NAME",
-    "sfdcLoginUrl": "https://login.salesforce.com",
-    "signupTargetLoginUrl": "https://gs0.salesforce.com",
-    "sourceApiVersion": "55.0"
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "Service Cloud Voice Partner Telephony Sample Package",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT"
+    },
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "force-app",
+      "default": false,
+      "package": "Test CTI Package",
+      "versionDescription": ""
+    },
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "force-app",
+      "default": false,
+      "package": "Test CTI Package 02 ",
+      "versionDescription": ""
+    }
+  ],
+  "namespace": "CUSTCTI",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "signupTargetLoginUrl": "https://gs0.salesforce.com",
+  "sourceApiVersion": "55.0",
+  "packageAliases": {
+    "Test CTI Package": "0HodM0000000CyrSAE",
+    "Test CTI Package 02 ": "0HodM0000000D8XSAU"
+  }
 }
